@@ -11,6 +11,6 @@
     "url": "https://github.com/m5stack/ATOM-ECHO.git"
   },
   "version": "0.0.1",
-  "framework": "arduino",
+  "frameworks": "arduino",
   "platforms": "espressif32"
 }
