@@ -29,7 +29,7 @@ English | [中文](README_cn.md)
 
 **UIFlow Quick Start**: Please [Click Here](https://docs.m5stack.com/en/quick_start/atom/atom_echo_quick_start)
 
-**MicroPyhton API**: Please [Click Here](https://docs.m5stack.com/en/quick_start/atom/mpy)
+**MicroPython API**: Please [Click Here](https://docs.m5stack.com/en/quick_start/atom/mpy)
 
 **Arduino IDE Development**: Please [Click Here](https://docs.m5stack.com/en/arduino/arduino_development)
 
