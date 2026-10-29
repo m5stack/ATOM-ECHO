@@ -51,6 +51,10 @@ void InitI2SSpeakerOrMic(int mode)
     tx_pin_config.data_out_num = CONFIG_I2S_DATA_PIN;
     tx_pin_config.data_in_num = CONFIG_I2S_DATA_IN_PIN;
 
+    #if (ESP_IDF_VERSION > ESP_IDF_VERSION_VAL(4, 3, 0))
+      tx_pin_config.mck_io_num = I2S_PIN_NO_CHANGE;
+    #endif
+    
     //Serial.println("Init i2s_set_pin");
     err += i2s_set_pin(SPEAKER_I2S_NUMBER, &tx_pin_config);
     //Serial.println("Init i2s_set_clk");
